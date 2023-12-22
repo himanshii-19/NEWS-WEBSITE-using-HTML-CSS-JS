@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="main-nav container flex">
+        <a href="#" onclick="reload()" class="company-logo">
+          <img src="./asset/NEWS WORLD (2).gif" alt="company logo" />
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li class="hover-link nav-item" id="ipl"onClick="onNavItemClick('ipl')">IPL</li>
+            <li class="hover-link nav-item" id="finance" onClick="onNavItemClick('finance')">Finance</li>
+            <li class="hover-link nav-item" id="politics"onClick="onNavItemClick('Politics')">Politics</li>
+            <li class="hover-link nav-item" id="International"onClick="onNavItemClick('International')">International</li>
+            <li class="hover-link nav-item" id="Technology"onClick="onNavItemClick('Technology')">Technology</li>
+            <li class="hover-link nav-item" id="Entertainment"onClick="onNavItemClick('Entertainment')">Entertainment</li>
+            <li class="hover-link nav-item" id="Local"onClick="onNavItemClick>Local('Local')">Local</li>
+            <li class="hover-link nav-item" id="Health"onClick="onNavItemClick>Health('Health)">Health</li>
+          </ul>
+        </div>
+        <div class="search-bar flex">
+          <input id="search-text" type="text" class="news-input" placeholder="e.g.Science" />
+          <button id="search-button" class="search-button">Search</button>
+        </div>
+        <!-- <a href="">LOG IN</a> -->
+      </div>
+    </nav>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <div class="cards-container container flex" id="cards-container"></div>
+    </main>
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="news-img"
+            id="news-img"
+          />
+        </div>
+        <div class="card-content">
+          <h3 id="news-title">This is the title</h3>
+          <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+          <p class="news-desc" id="news-desc">Lorem ipsum</p>
+        </div>
+      </div>
+    </template>
+    <div>
+      <div>
+        <section1>
+          <form>
+            <h2>For more information and details contact</h2>
+            <input type="text" placeholder="full name"><br>
+            <input type ="email" placeholder="Email Address"><br>
+           <textarea name="" id="" cols="30" row="10" placeholder="type message"></textarea><br>
+            <input type="button" value="send message"><br>
+        </form>
+    </div>
+</section>
+<section2>
+    <footer>
+        <i class="lni lni-sketch"></i>
+        <p>@copyright</p>
+        <p>fgwfyyr@email.com</p>
+    </footer>
+</section2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
